@@ -10,19 +10,19 @@ import {
 
 export const WelcomePage = () => {
   return (
-  <WelcomeWrapper>
-      <WelcomeContent>
     <header>
-    <WelcomeTitle>
-      <h1>Sports Quiz</h1>
-      </WelcomeTitle>
-      <Link to="/quiz">
-      <WelcomeBtn>
-        Start Quiz!
-      </WelcomeBtn>
-      </Link>
-    </header>
-    </WelcomeContent>
-  </WelcomeWrapper>
+      <WelcomeWrapper>
+        <WelcomeContent>
+          <WelcomeTitle>
+            <h1>Sports Quiz</h1>
+          </WelcomeTitle>
+          <Link to="/quiz">
+          <WelcomeBtn>
+          Start Quiz!
+          </WelcomeBtn>
+          </Link>
+        </WelcomeContent>
+      </WelcomeWrapper>
+  </header>
   )
 };
